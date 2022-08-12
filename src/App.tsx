@@ -1,9 +1,15 @@
+import {Button} from './Components/Button'
+
 export function App() {
   
 
   return (
-    <h1>
-      Ola Mundo
-    </h1>
+    <>
+      <Button color='primary'/>
+      <Button color='secondary'/>
+      <Button color='sucess'/>
+      <Button color='danger'/>
+      <Button />
+    </>
   )
 }
